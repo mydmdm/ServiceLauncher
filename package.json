@@ -1,0 +1,19 @@
+{
+  "name": "applauncher",
+  "private": true,
+  "packageManager": "pnpm@10.28.2",
+  "description": "Lightweight local service manager for Devbox projects",
+  "type": "module",
+  "scripts": {
+    "init": "node bin/launcher.mjs init",
+    "validate": "node bin/launcher.mjs validate",
+    "start": "node bin/launcher.mjs start",
+    "stop": "node bin/launcher.mjs stop",
+    "restart": "node bin/launcher.mjs restart",
+    "status": "node bin/launcher.mjs status",
+    "logs": "node bin/launcher.mjs logs"
+  },
+  "dependencies": {
+    "js-yaml": "^4.2.0"
+  }
+}
